@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image retrieval using compact Binary signatures - Terna Aviation Magazine</title>
+	<meta name='robots' content='noindex,follow' />
+	<link rel="icon" href="img/favicon.ico">
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+	<link rel='dns-prefetch' href='//s.w.org' />
+	<link rel='stylesheet' id='bootstrap-css'  href='css/bootstrap.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='shapely-fonts-css'  href='//fonts.googleapis.com/css?family=Raleway%3A100%2C300%2C400%2C500%2C600%2C700%7COpen+Sans%3A400%2C500%2C600&#038;ver=4.7.1' type='text/css' media='all' />
+	<link rel='stylesheet' href='css/articles.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='css/social.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+	<script type='text/javascript' src='js/jquery/jquery.js'></script>
+	<script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
+	<link rel='https://api.w.org/' href='wp-json/' />
+	<body class="post-template post-template-page-templates post-template-no-sidebar post-template-page-templatesno-sidebar-php single single-post postid-17 single-format-standard has-sidebar-right wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
+	<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="nav-container">
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<div class="container nav-bar">
+						<div class="row">
+							<div class="module left"><img src="img/terna-logo.png" style="margin-bottom:3px;" width="192" height="92" alt="Terna Engineering College Nerul"><img src="img/loavi.png" width="70px" height="70px" alt="Terna Aviation">
+							</div>
+							<div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+								<i class="fa fa-bars"></i>
+							</div>
+							<div class="module-group right">
+								<div class="module left">
+									<div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="menu" style="margin-top:25px;" class="menu"><li id="menu-item-1636" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1636 active"><a title="Home" href="home.html">Home</a></li>
+										<li id="menu-item-1637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1637 dropdown"><a title="Gallery" href="gallery.html">Gallery</a>
+											<ul role="menu" class=" dropdown-menu">
+												<li id="menu-item-16991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16991"><a href="Photography.html">Photography</a></li>
+												<li id="menu-item-16992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16992"><a href="sketches.html">Sketches</a></li>
+												<li id="menu-item-16993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16993"><a href="Videos.html">Songs-Videos</a></li>
+												<li id="menu-item-16994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16994 dropdown"><a href="#">Literature</a>
+													<ul role="menu" class=" dropdown-menu">
+														<li id="menu-item-1645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1645"><a href="Non_Technical_Articles.html">Non Technical</a></li>
+														<li id="menu-item-1699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1699"><a href="Technical_Articles.html">Technical</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li id="menu-item-1633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1633 dropdown"><a title="Articles" href="#" data-toggle="dropdown" class="dropdown-toggle">Articles</a>
+											<ul role="menu" class=" dropdown-menu">
+												<li id="menu-item-16999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16999"><a href="Technical_Articles.html">Technical Articles</a></li>
+												<li id="menu-item-16998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16998"><a href="Non_Technical_Articles.html">Non Technical Articles</a></li>
+											</ul>
+										</li>
+										<li id="menu-item-1639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1639 dropdown"><a title="Events and Achievements" href="#" data-toggle="dropdown" class="dropdown-toggle">Events and Achievements</a>
+											<ul role="menu" class=" dropdown-menu">
+												<li id="menu-item-1697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1697"><a href="Events.html">Events</a></li>
+												<li id="menu-item-1698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1698"><a href="Achievements.html">Achievements</a></li>
+											</ul>
+										</li>
+										<li id="menu-item-1637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1637"><a title="About Us" href="about-us.html">ABOUT</a></li>
+									</div>
+									<!--end of module group-->
+								</div>
+							</div>
+				</nav><!-- #site-navigation -->
+			</div>
+		</header><!-- #masthead -->
+	<style>
+	.bg-secondary {
+	    background: transparent url(css/statics/thin-client.jpg) no-repeat fixed center; ;
+	}
+	</style>
+	<div id="content" class="main-container">
+					<div class="header-callout">
+					<section class="page-title-section bg-secondary " >
+		<div class="container">
+			<div class="row"><div class="col-xs-12">
+						<h3 style="color:white" class="page-title" >Image retrieval using compact Binary signatures</h3>
+					</div>
+
+			</div>
+			<!--end of row-->
+		</div>
+		<!--end of container-->
+		</section>			</div>
+
+		<section class="content-area ">
+			<div id="main" class="container"
+			     role="main">	<div class="row">
+				<div id="primary" class="col-md-8 mb-xs-24 no-sidebar"><article id="post-22" class="post-content post-grid-wide">
+	<header class="entry-header nolist">
+			</header><!-- .entry-header -->
+	<div class="entry-content">
+		<h2 class="post-title">Image retrieval using compact Binary signatures</h2>
+		<div class="entry-meta">
+		<ul class="post-meta">
+		<li><span class="posted-on"><time class="entry-date published updated" datetime="2019-01-25T14:47:10+00:00">January 25, 2019</time></span></li>
+		<li><span>by Rasika Magar</span>
+		</li>
+		</ul><!-- post-meta -->
+		</div>
+		<aside id="sticky-social">
+				<ul>
+						<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.terna.org%2FAviation%2Findex.html" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
+						<li><a href="https://twitter.com/intent/tweet/?text=Check%20out%20this%20website!&url=http%3A%2F%2Fterna.org%2FAviation%2Findex.html&via=jonsuh" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>
+						<li><a href="https://plus.google.com/share?url=http%3A%2F%2Fterna.org%2FAviation%2Findex.html" class="entypo-gplus" target="_blank"><span>Google+</span></a></li>
+						<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fterna.org%2FAviation%2Findex.html&title=Aviation%20Terna%20Engg%20College&source=http%3A%2F%2Fterna.org%2FAviation%2Findex.html&summary=Short%20summary" class="entypo-linkedin" target="_blank"><span>LinkedIn</span></a></li>
+						<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fterna.org%2FAviation%2Findex.html&title=Aviation%20Terna%20Engg%20College" class="entypo-stumbleupon" target="_blank"><span>StumbleUpon</span></a></li>
+						<li><a href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fterna.org%2FAviation%2Findex.html&media=http%3A%2F%2Fterna.org%2FAviation%2Fimg%2Ffavicon.ico&description=Short%20description&hashtags=Terna,College" class="entypo-pinterest" target="_blank"><span>Pinterest</span></a></li>
+						<li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fterna.org%2FAviation%2Findex.html&t=Aviation%20Terna%20Engg%20College" class="entypo-tumblr" target="_blank"><span>Tumblr</span></a></li>
+				</ul>
+		</aside>
+		<div>
+			<p><strong>Abstract</strong></p>
+			<p>Significant research has focused on determining efficient methodologies for retrieving images from large image databases. The thesis addresses the concept of new image abstraction technique based on compact binary signatures. The enormous growth of image archives has significantly increased the demand for research efforts aimed at efficiently finding similar images within large image databases. Though there are a number of image retrieval techniques available like image retrieval using M Band Wavelet Transform, Object based image indexing and so on not all of them are efficient in most cases. These are not efficient in terms of time and space efficiency.</p>
+			<p><strong> I.INTROUCTION</strong>
+Introduction part mainly deals with the following:
+1) Basics of image retrieval.
+2) Different types of image retrieval techniques.
+3) Color space models.</p>
+        <p><strong>A. Image retrieval:</strong>
+An image retrieval system is a computer system for browsing, searching and retrieving images from a large database of digital images. Most traditional and common methods of image retrieval utilize some method of adding metadata such as captioning, keywords, or descriptions to the
+images so that retrieval can be performed over the annotation words. Manual image annotation is time-consuming, laborious and expensive; to address this, there has been a large amount of research done on automatic image annotation. Additionally, the increase in social web applications and the semantic web have inspired the development of several web-based image annotation tools.
+In image retrieval system features are extracted from a given query image which are then used for comparing with the features of other images stored in database. In the proposed signature technique an image’s signature bi string referred as signature is an abstract representation of the
+color distribution of an image by bit stings of a predetermined size. To process a query all the image signatures are compared against the signature of query image using a well defined similarity metric. The candidate images are then retrieved and ranked according to their
+similarity with query image.</p>
+        <p><strong>B. There are mainly 3 visual attributes through which image retrieval happens:</strong>
+Color is an extensively utilized visual attribute in image retrieval, that often simplifies object identification and extraction. Color is especially convenient, because it provides multiple measurements at a single pixel of the image.
+A Global Color Histogram (GCH) is the most traditional way of describing the color property of an image. The GCH for an image is constructed by computing the normalized percentage of color pixels in an image corresponding to each color element. Assuming an n color model, a GCH is then an n-dimensional feature vector (h1, h2, h3..hn), where hjre presents the (usually) normalized percentage of color pixels in an image corresponding to each color element cj . More formally, we can define the component hj as a unique combination of the values – red, green, and
+blue(obtained after normalization).
+The visual attribute texture is a representation of the surface of an image object. Intuitively, the term refers to properties such as smoothness, coarseness, and regularity of an image object. Shape refers to the characteristic contour of an object that identifies it in a meaningful form.
+Traditionally, shapes are represented through a set of features such as area, axis-orientation, certain characteristic points etc. Shape representations are broadly divided in to two categories, boundary-based and region-based, and the most successful representatives of these are the
+Fourier Descriptor and Moment Invariants respectively. Retrieval of a subset of images that satisfy certain constraints is a central problem in shape retrieval, with the degree of similarity between two images calculated as the distance between corresponding points. A common similarity metric is based on the Euclidean distance between the abstracted feature vectors that represent two images defined as: d(Q,I)= square root (summation(hj of query- hj of image)square))
+where Q and I represents the query image and the image in image set.</p>
+        <p><strong>C. Color Space Model</strong>
+Color space models define colors in three dimensions, such that each color is represented by three coordinates. The difference between any two colors is approximated to be the Euclidean distance in a uniform color space.
+RGB color space model is the most commonly used model, which is composed of three primary colors red, green, blue. The primary colors are additive that is by varying their combinations, other colors can be obtained. The model is visualized as a unit cube with corners of black, white,
+the three primary colors (red, blue, green), and the three secondary colors (cyan, magenta, yellow).
+The CMY color model is based on the secondary colors of the RGB color space model, that is – cyan (green plus blue), magenta (red plus blue) and yellow (red plus green). The subset of the Cartesian coordinate system for the CMY color model is similar to that of the RGB color space,
+except that the white color occupies the origin.</p>
+			</div>
+			</div><!-- .entry-content -->
+		<div class="author-bio">
+			<div class="row">
+				<div class="col-sm-2">
+					<div class="avatar">
+						<img alt="jay-thakker" src="img/Artical-logo/person-man.png" class="avatar avatar-100 photo" height="100" width="100">					</div>
+				</div>
+				<div class="col-sm-10">
+					<b class="fn">Rasika Magar</b>
+					<p>Life gives us new lessons each day not for learning but to improve our understanding.</p>
+
+					<ul class="list-inline social-list author-social">
+											</ul>
+				</div>
+			</div>
+		</div>
+		<!--end of author-bio-->
+		</div><!-- #primary -->
+	</div>
+
+</div><!-- #main -->
+</section><!-- section -->
+
+<div class="footer-callout">
+	</div>
+
+<footer id="colophon" class="site-footer footer bg-dark" role="contentinfo">
+	<div class="container footer-inner">
+		<div class="row">
+
+		</div>
+
+		<div class="row">
+			<div class="site-info col-sm-6">
+				<div class="copyright-text">
+									</div>
+				<div class="footer-credits">
+					Theme Designed by Computer Department Students				</div>
+			</div><!-- .site-info -->
+			<div class="col-sm-6 text-right">
+							</div>
+		</div>
+	</div>
+
+	<a class="btn btn-sm fade-half back-to-top inner-link" href="#top"><i class="fa fa-angle-up"></i></a>
+</footer><!-- #colophon -->
+</div>
+</div><!-- #page -->
+<script type='text/javascript' src='js/navigation.js'></script>
+<script type='text/javascript' src='js/imagesloaded.min.js'></script>
+<script type='text/javascript' src='js/masonry.min.js'></script>
+<script type='text/javascript' src='js/jquery/jquery.masonry.min.js'></script>
+<script type='text/javascript' src='js/flexslider.js'></script>
+<script type='text/javascript' src='js/smooth-scroll.min.js'></script>
+<script type='text/javascript' src='js/parallax.min.js'></script>
+<script type='text/javascript' src='js/flexible-scripts.js'></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function ($) {
+				if ( $(window).width() >= 767 ) {
+					$('.navbar-nav > li.menu-item > a').click(function () {
+						window.location = $(this).attr('href');
+					});
+				}
+			});
+		</script>
+</body>
+</html>
